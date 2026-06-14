@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-image: url('./img/IMAGE.png');
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 30px 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.title-left h1 {
+  color: #f1c40f;
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.title-left p {
+  color: #b2b2b2;
+  margin: 5px 0 0 0;
+  font-size: 13px;
+}
+
+
+.title-right {
+  display: flex;
+  gap: 40px;
+}
+
+.title-right p {
+  color: #cdcdcd;
+  margin: 0;
+  font-size: 17px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+
+.title-right p:hover {
+  color: #ffffff;
+}
+
+
+.title-right p:first-child {
+  color: #fafafa;
+  border-bottom: 3px solid #f1c40f; 
+  padding-bottom: 5px;
+}
