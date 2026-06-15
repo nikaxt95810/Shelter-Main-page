@@ -5,36 +5,47 @@ body {
 }
 
 
-header {
+.title {
   display: flex;
-  justify-content: space-between; 
-  align-items: center;
   padding: 30px 40px;
   max-width: 1200px;
   margin: 0 auto;
+  flex-direction: column;
+  gap: 60px;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
 
-.title-left h1 {
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo h2 {
   color: #f1c40f;
   margin: 0;
   font-size: 32px;
   letter-spacing: 1px;
+  margin-bottom: 5px;
 }
 
-.title-left p {
+.logo p {
   color: #b2b2b2;
   margin: 5px 0 0 0;
   font-size: 13px;
 }
 
-
-.title-right {
+.menu {
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 
-.title-right p {
+.menu p {
   color: #cdcdcd;
   margin: 0;
   font-size: 17px;
@@ -43,13 +54,50 @@ header {
 }
 
 
-.title-right p:hover {
+.menu p:hover {
   color: #ffffff;
 }
 
 
-.title-right p:first-child {
+.menu p:first-child {
   color: #fafafa;
-  border-bottom: 3px solid #f1c40f; 
+  border-bottom: 3px solid #f1c40f;
   padding-bottom: 5px;
+}
+
+
+.introduction {
+  display: flex;
+  align-items: center;
+  height: 728px;
+}
+
+.intro-text {
+  width: 460px;
+}
+
+.intro-h2 {
+  width: 310px;
+  font-size: 24px;
+  color: white
+}
+
+.intro-text p {
+  color: #CDCDCD;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.intro-text button {
+  background-color: #f1cdb3;
+  color:black;
+  width: 207px;
+  height: 52px;
+  border: none;
+  border-radius: 100px;
+}
+
+.dog-img {
+  width: 698px;
+  height: 728px;
 }
