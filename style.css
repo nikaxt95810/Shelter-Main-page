@@ -1,17 +1,22 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 0;
-  background-image: url('./img/IMAGE.png');
   font-family: Arial, sans-serif;
+  background-color: #cdcdcd;
 }
 
 
 .title {
   display: flex;
   padding: 30px 40px;
-  max-width: 1200px;
+  width: 1280px;
   margin: 0 auto;
   flex-direction: column;
   gap: 60px;
+  height: 818px;
+  background-image: url('./img/IMAGE.png');
 }
 
 header {
@@ -19,6 +24,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 60px;
+  margin: 10px
 }
 
 .logo {
@@ -70,6 +76,7 @@ header {
   display: flex;
   align-items: center;
   height: 728px;
+  position: relative;
 }
 
 .intro-text {
@@ -90,14 +97,42 @@ header {
 
 .intro-text button {
   background-color: #f1cdb3;
-  color:black;
+  color: black;
   width: 207px;
   height: 52px;
   border: none;
   border-radius: 100px;
 }
 
-.dog-img {
+.intro-img {
   width: 698px;
   height: 728px;
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  width: 1280px;
+  padding: 100px 40px;
+  gap: 100px;
+  background-color: white;
+}
+
+.about-text {
+  width: 430px;
+}
+
+.about-h2 {
+  width: 380px;
+  font-size: 24px;
+  color: #545454;
+}
+
+.about-text p {
+  color: #4C4C4C;
+  font-size: 15px;
+  margin-bottom: 50px;
 }
