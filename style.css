@@ -159,3 +159,51 @@ background-color: #F5F5F5;
   display: flex;
   align-items: center;
 }
+
+
+.button-rest  button {
+ border-radius: 100px;
+ border-color: #f1c40f;
+ background-color: #f1c40f;
+}
+
+.arrow-left button {
+  top: 45%;
+    position: absolute;
+    border-radius: 100%;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+}
+
+.arrow-right button {
+  top: 45%;
+    position: absolute;
+    border-radius: 100%;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+}
+
+.dog button {
+
+    position: absolute;
+    border-radius: 100px;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+}
+
+.puppy button {
+
+    position: absolute;
+    border-radius: 100px;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+}
+
+
+.cat button {
+
+    position: absolute;
+    border-radius: 100px;
+    border-color: #f1c40f;
+    background-color: #f1c40f;
+}
