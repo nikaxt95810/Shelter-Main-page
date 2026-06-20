@@ -152,7 +152,7 @@ header {
   gap: 70px;
 }
 
-.title-3 {
+.friends-title {
   color: #545454;
   font-weight: 400;
   text-align: center;
@@ -213,4 +213,30 @@ button{
 
 button:focus {
   outline: none;
+}
+
+.help-shelter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 70px 40px;
+  width: 1280px;
+  height: 611px;
+  background-color: #FFFFFF;
+}
+
+.helpshelter-title {
+  color: #545454;
+  font-weight: 400;
+  text-align: center;
+}
+
+.dogs-needs {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 900px;
+  height: 113px;
 }
