@@ -240,3 +240,59 @@ button:focus {
   width: 900px;
   height: 113px;
 }
+
+.donation {
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5F5;
+  padding: 0 40px;
+}
+
+.info {
+  width: 915px;
+  height: 282px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 182px;
+  gap: 30px;
+}
+
+
+.info-img {
+  width: 505px;
+  height: 261px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-h2 h2{
+  color: #545454;
+  font-size: 32px;
+}
+
+.info-h4 h4{
+  color: #545454;
+  font-size: 15px;
+}
+
+
+.info-card button {
+  width: 349px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  background-color: #F1CDB3;
+}
+
+.info-p p{
+  color:#B2B2B2;
+  font-size: 13px;
+}
